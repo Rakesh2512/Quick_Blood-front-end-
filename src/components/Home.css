@@ -1,0 +1,83 @@
+
+.sidebar1{
+  height: 87%;
+  width: 30%;
+  margin-top: 3.7%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color:aliceblue;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+.sidebar2{
+    height: 87%;
+    width: 70%;
+    margin-top: 3.7%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: red;
+    background-image: url(C:\Users\Rakesh\Downloads\todo-app\todo-app\src\images\donor.jpg);
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: blue;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px red;
+}  
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table  tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.styled-table tr:nth-of-type(odd) {
+    background-color:aliceblue
+}
+
+.styled-table tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+.table1{
+    align-items: center;
+    height: 40%;
+    width: 30px;
+    left: 150px;
+    padding: 2px;
+    padding-left: 10%;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+   from {left: 0px;}
+   to {right:200px;}
+}
+
+
+
